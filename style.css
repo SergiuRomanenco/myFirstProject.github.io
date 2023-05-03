@@ -1,0 +1,446 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+
+.header{
+    width: 100%;
+    height: 120px;
+    background-color: #fff;
+}
+
+.container_header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+}
+
+.title{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.title .title1{
+    text-transform: uppercase;
+    margin: 0 25px 0 30px;
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
+.title .title2{
+    font-size: 20px;
+}
+
+.nav .nav_link{
+    text-decoration: none;
+    margin: 0 25px;
+    color: black;
+    font-size: 20px;
+}
+
+.nav .nav_link:first-child{
+    margin: 0;
+}
+
+.nav .nav_link:hover{
+    text-decoration: underline;
+}
+
+.title .title1:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.intro{
+    width: 100%;
+    height: 750px;
+    background-color: #f4f6f2;  
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    align-items: flex-start;
+}
+
+
+
+.bloc_text_intro{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 500px;
+    border-top: 1px solid black;
+    justify-content:space-evenly;
+    align-items: flex-start;
+}
+
+.e1{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 900;
+}
+
+.e2{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1.4;
+}
+
+.e3{
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+.bloc_imagine{
+    width: 60%;
+    height: 500px;
+    background-image: url("https://byrnedemo.files.wordpress.com/2021/12/maddi-bazzocco-a78sb7x8wa-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-name: animatieIMG;
+    animation-duration: 2s;
+}
+
+@keyframes animatieIMG{
+    from{
+        width: 0;
+        height: 0;
+    }
+    to{
+        width: 60%;
+        height: 500px;
+    }
+}
+
+.button .buton1{
+    margin: 50px 0 0 5%  ;
+    text-transform: uppercase;
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #082d0f;
+    color: #fff;
+}
+
+.button .buton1:hover{
+    cursor: pointer;
+}
+
+.recipes{
+    width: 100%;
+    height: 900px;
+    background-color: #fff;
+}
+
+.titlu_recipes{
+    padding-left: 5%;
+    margin-top: 90px;
+    text-transform: uppercase;
+    font-size: 38px;
+}
+
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.blocuri{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 200px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.titlu_blocuri{
+    font-size: 28px;
+    color: black;
+    margin: 30px 0;
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+.paragraf_blocuri{
+    text-align: center;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.link_blocuri{
+    text-transform: uppercase;
+    margin: 20px 0;
+    color: black;
+    font-size: 18px;
+}
+
+.titlu_blocuri:hover{
+    text-decoration: none;
+}
+.link_blocuri:hover{
+    text-decoration: none;
+}
+
+.butoane{
+    width: 100%;
+    height: 270px;
+    background-color: #f4f6f2;
+}
+
+.container4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 60px 100px;
+    align-items: center;
+}
+
+.nav_butoane{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 70%;
+}
+
+.nav_butoane .buton{
+    border: 2px solid black;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin: 10px 10px;
+    font-weight: bold;
+}
+
+.titlu_butoane{
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.nav_butoane .buton:hover{
+    background-color: #082d0f;
+    color: #fff;
+}
+
+.informatii{
+    width: 100%;
+    height: 1450px;
+    background-color: #fff;
+}
+
+.container5{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 120px;
+    justify-content: space-evenly;
+}
+
+
+.about_me{
+    width: 320px;
+    border-top: 1px solid black;
+}
+
+.E1{
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 900;
+    margin: 30px 0;
+}
+
+.E2{
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1.4;
+}
+
+.E3{
+    font-size: 18px;
+    line-height: 25px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+
+.buton2{
+    text-transform: uppercase;
+    width: 130px;
+    height: 50px;
+    border: none;
+    background-color: #082d0f;
+    color: #fff;
+    margin-top: 80px;
+}
+
+.buton2:hover{
+    cursor: pointer;
+}
+
+.title_lifestyle{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 500;
+    margin: 125px 0 30px 65px;
+
+}
+
+.container6{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cookbooks{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 44%;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.blogging{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 44%;
+    align-items: center;
+}
+
+.img_lifestyle1{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://byrnedemo.files.wordpress.com/2021/07/heather-ford-g4lfhulxhle-unsplash-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img_lifestyle2{
+    width: 100%;
+    height: 350px;
+    background-image: url("https://byrnedemo.files.wordpress.com/2021/12/6cbce-6cb5f-kirsten-drew-teo3_ha3yi0-unsplash-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cook{
+    font-size: 28px;
+    color: black;
+    margin: 40px 0 30px 0;
+    letter-spacing: 1.5px;
+}
+
+.prg{
+    max-width: 450px;
+    line-height: 1.5;
+    font-size: 18px;
+    text-align: center;
+}
+
+.link_L{
+    text-transform: uppercase;
+    margin: 30px 0;
+    color: black;
+    font-size: 18px;
+}
+.cook:hover{
+    text-decoration: none;
+}
+.link_L:hover{
+    text-decoration: none;
+}
+
+footer{
+    width: 100%;
+    height: 400px;
+    background-color: black;
+}
+
+.container7{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bloc_footer{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 300px;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.prg_footer{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 900;
+}
+
+.link_footer{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.link_footer:hover{
+    text-decoration: underline;
+}
+
+input{
+    width: 300px;
+    height: 30px;
+    background-color: black;
+    border: 1px solid #fff;
+    margin-top: 30px;
+}
+
+.subscribe{
+    width: 280px;
+    height: 30px;
+    text-transform: uppercase;
+    margin-top: 10px;
+}
+.subscribe:hover{
+    cursor: pointer;
+}
+
+.prg_footer1{
+    font-size: 18px;
+    color: #fff;
+    margin-top: 120px;
+}
+
+.link_footer1{
+    color: #fff;
+    text-decoration: none;
+    margin-top: 30px;
+    font-size: 18px;
+}
+.link_footer1:hover{
+    text-decoration: underline;
+}
+
